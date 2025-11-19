@@ -1,0 +1,261 @@
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Repositorio - Proyectos Aula de Software Educativo</title>
+<meta name="description" content="Repositorio de proyectos - Licenciatura en Tecnología" />
+
+<style>
+
+:root{
+    --up-yellow:#F7B500;
+    --up-black:#000000;
+    --up-gray:#4E4E4E;
+    --bg:#f6f6f6;
+}
+
+*{box-sizing:border-box}
+body{
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
+    margin:0;
+    background:var(--bg);
+    color:var(--up-black);
+}
+
+header{
+    background:white;
+    border-bottom:3px solid var(--up-yellow);
+    padding:18px 24px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.brand img{
+    height:64px;
+    width:auto;
+}
+
+.title{
+    font-size:18px;
+    font-weight:700;
+    color:var(--up-black);
+}
+
+nav{
+    margin-left:auto;
+}
+
+nav a{
+    margin-left:12px;
+    color:var(--up-black);
+    text-decoration:none;
+    font-weight:700;
+    padding:6px 10px;
+    border-radius:6px;
+}
+
+nav a:hover{
+    background:var(--up-yellow);
+    color:black;
+}
+
+main{
+    max-width:1000px;
+    margin:28px auto;
+    padding:0 16px;
+}
+
+.intro{
+    background:white;
+    padding:18px;
+    border-radius:10px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.07);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:14px;
+    margin-top:16px;
+}
+
+.card{
+    background:white;
+    padding:14px;
+    border-radius:10px;
+    border:2px solid var(--up-yellow);
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.card h3{
+    margin:0;
+    font-size:16px;
+    color:var(--up-black);
+}
+
+.card p{
+    margin:0;
+    color:var(--up-gray);
+    font-size:14px;
+    align:justify;
+}
+
+.card a{
+    margin-top:auto;
+    align-self:flex-start;
+    padding:8px 10px;
+    border-radius:8px;
+    background:var(--up-yellow);
+    color:black;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.card a:hover{
+    background:var(--up-black);
+    color:white;
+}
+
+footer{
+    margin-top:28px;
+    padding:18px 16px;
+    background:var(--up-black);
+    color:#fff;
+    text-align:center;
+    border-radius:8px;
+}
+
+footer a{
+    color:#F7B500;
+    text-decoration:underline;
+}
+
+.license{
+    font-size:14px;
+    opacity:0.95;
+}
+
+/* responsive */
+@media (max-width:540px){
+    .brand img{height:52px}
+    .title{font-size:16px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="brand">
+
+<img src="logouptc.png" alt="Cabezote UPTC" />
+
+<div>
+<div class="title">Repositorio: Proyectos de Aula LMS</div>
+<div style="font-size:13px;color:var(--up-gray)">Licenciatura en Tecnología</div>
+</div>
+
+</div>
+
+<img src="logolicenciatura.png" alt="Logo Licenciatura" style="height:56px;margin-left:12px" />
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#creditos">Créditos</a>
+</nav>
+</header>
+
+<main>
+<section class="intro">
+<h1 style="margin:0 0 6px 0; color:var(--up-black)">Proyectos - Aula de Gestión de Ambientes de Aprednizaje LMS</h1>
+<p style="margin:0;color:var(--up-gray)">Aquí encontrará los enlaces a las páginas web de cada proyecto realizado en la asignatura.</p>
+
+
+<div id="proyectos" class="projects">
+
+<article class="card">
+<h3>Espacio Inmersivo: Programación en c++</h3>
+<p>El Curso Inmersivo de Introducción a la Programación está diseñado para que cualquier persona —sin importar su nivel académico o experiencia previa— pueda dar sus primeros pasos en el mundo del desarrollo de software de una manera sencilla, práctica y profundamente motivadora.
+
+A través de actividades guiadas, ejemplos cotidianos y proyectos reales, las estudiantes aprenderán cómo piensa una computadora, cómo se resuelven problemas paso a paso y cómo se construyen programas reales usando uno de los lenguajes más accesibles: Java (o el lenguaje que elijas).
+
+Este curso no solo enseña a escribir código:
+enseña a pensar, a resolver problemas, a crear y a confiar en sus propias capacidades.
+<div align="center"><strong>Lina Katherine Carrillo & - Zaida Mahibrith Currea Chia </strong> </div>
+ </p>
+<a href="https://framevr.io/introduccionprogramacion#center-3" target="_blank" rel="noopener">Ir al proyecto</a>
+</article>
+
+<article class="card">
+<h3>Espacio Inmersivo:Conceptos de Pedagogía</h3>
+<p>El Espacio Inmersivo de Conceptos de Pedagogía es un ambiente formativo diseñado para que las y los participantes vivan experiencias de aprendizaje profundo, significativo y activo. Su propósito es comprender, practicar y reflexionar sobre los principios fundamentales de la pedagogía moderna, colocando al estudiante en el centro del proceso educativo.
+
+Este espacio utiliza actividades interactivas, dinámicas colaborativas, recursos visuales y escenarios prácticos, permitiendo que cada persona aprenda haciendo, construya su propio conocimiento y desarrolle habilidades pedagógicas que pueden aplicar inmediatamente en su práctica educativa o formativa.</p>
+<div align="center"><strong>Brayan David Manrique Nova Karen Melisa Porras Silva </strong> </div>
+
+<a href="https://framevr.io/conceptos-pedagogia" target="_blank" rel="noopener">Ir al proyecto</a>
+
+</article>
+
+<article class="card">
+<h3>Espacio Inmersivo: Electrónica Análoga</h3>
+<p>El curso virtalk de  Electrónica Análoga es un ambiente de aprendizaje práctico y dinámico en el que los estudiantes de grado 11 descubren cómo funcionan los circuitos, componentes y señales que dan vida a la tecnología que usamos a diario.
+
+A través de actividades experimentales, simulaciones, retos y proyectos reales, este espacio permite que los estudiantes entiendan, manipulen y construyan sistemas electrónicos básicos, fortaleciendo competencias científicas, matemáticas, tecnológicas y de pensamiento crítico.
+
+Este espacio combina la teoría esencial con experiencias colaborativas y prácticas que hacen del aprendizaje algo significativo, aplicable y motivador.</p>
+<div align="center"><strong>Arbey Sandoval & Camilo Gil </strong> </div>
+
+<a href="https://framevr.io/electroanaloga#" target="_blank" rel="noopener">Ir al proyecto</a>
+</article>
+
+</div>
+<div id="proyectos" class="projects">
+
+<article class="card">
+<h3>Introducción a la pedagogía</h3>
+<p>La pedagogía en la Licenciatura en Educación en Tecnología se convierte en el eje que permite comprender cómo enseñar, acompañar y transformar los procesos de aprendizaje relacionados con la ciencia, la tecnología y la innovación. Este Espacio Inmersivo de Pedagogía está diseñado para que los futuros licenciados experimenten, vivan y analicen los principios fundamentales de la enseñanza desde una perspectiva activa, reflexiva y centrada en el estudiante. A través de actividades prácticas, escenarios simulados, dinámicas colaborativas y análisis de casos reales, los participantes desarrollan las bases pedagógicas necesarias para diseñar experiencias educativas innovadoras en contextos tecnológicos contemporáneos.</p>
+<div align="center"><strong>Laura Ballesteros & David Galindo </strong> </div>
+
+<a href="https://framevr.io/modelospedagogicos" target="_blank" rel="noopener">Ir al proyecto</a>
+</article>
+
+<article class="card">
+<h3>Proyecto Pedagógico</h3>
+<p>La pedagogía en la Licenciatura en Educación en Tecnología se convierte en el eje que permite comprender cómo enseñar, acompañar y transformar los procesos de aprendizaje relacionados con la ciencia, la tecnología y la innovación. Este Espacio Inmersivo de Pedagogía está diseñado para que los futuros licenciados experimenten, vivan y analicen los principios fundamentales de la enseñanza desde una perspectiva activa, reflexiva y centrada en el estudiante. A través de actividades prácticas, escenarios simulados, dinámicas colaborativas y análisis de casos reales, los participantes desarrollan las bases pedagógicas necesarias para diseñar experiencias educativas innovadoras en contextos tecnológicos contemporáneos.</p>
+<div align="center"><strong>Clara Ines Herrera Guepedo & Katerin Viviana Hertnandez García </strong> </div>
+
+<a href="https://framevr.io/proyecto3#lounge" target="_blank" rel="noopener">Ir al proyecto</a>
+</article>
+
+<article class="card">
+<h3>Introducción a la imprsión 3D</h3>
+<p>EEl curso Virtual Introducción a la Impresión 3D, ofrece a los estudiantes un acercamiento práctico, creativo y exploratorio al mundo de la fabricación digital. A través de un aprendizaje activo y basado en proyectos, los participantes descubren cómo transformar ideas en objetos reales utilizando herramientas de diseño tridimensional y tecnologías de impresión 3D.
+
+Este curso brinda las bases necesarias para comprender el funcionamiento de las impresoras 3D, los tipos de materiales, los procesos de modelado y las aplicaciones reales en campos como ingeniería, medicina, arte, diseño industrial, arquitectura y educación. Desde el primer día, el estudiante pasa del concepto a la creación, desarrollando competencias tecnológicas, pensamiento lógico, resolución de problemas y creatividad.</p>
+<div align="center"><strong>Camila Andrea Rincón Cely & David Sebastian Tangarife Numpaque </strong> </div>
+
+<a href="https://framevr.io/introduccion3d" target="_blank" rel="noopener">Ir al proyecto</a>
+</article>
+
+</div>
+
+</section>
+
+<footer id="creditos">
+<div class="license">
+<p>Elaborado por Nancy Rincón Calixto - 2024</p> 
+<img src="ccby.png" width="90" eight="90"></img>
+</div>
+</footer>
+</html>
